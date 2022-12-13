@@ -1,9 +1,10 @@
-<!doctype html>
+<!doctype html><!doctype html>
 <html>
   <head>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Lato:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/font/flaticon.css"/>
     <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon" />
@@ -42,6 +43,7 @@
 </head>
   <body>
     
+    
       <section class="navbar-main Navbar">
     <nav class="navbar navbar-expand-lg fixedNav">
         <div class="container-fluid">
@@ -75,10 +77,10 @@
         </div>
     </nav>
 </section>
+     
+
     
 
-
-    
 
     <div class="">
         <section class="banner-4">
@@ -88,18 +90,18 @@
                     class="primary-color">vidéosurveillance</span></h1>
             <p class="slider_content-p">Contrôlez, simplifiez, vivez.</p>
             <div class="slider_content-buttons">
-                <a href="#" class="slider_content-buttons--1">Devis gratuit &nbsp;<i class="fas fa-file"></i></a>
+                <a href="#devis" class="slider_content-buttons--1">Devis gratuit &nbsp;<i class="fas fa-file"></i></a>
             </div>
         </div>
     </div>
 </section>
 <section class="services">
     <div class="container">
-        <div class="services_header">
+        <div class="services_header" data-aos="fade-up">
             <div class="services_header-icon"><i class="fas fa-map"></i></div>
             <p class="services_header-p">Île-de-France | Grand-Est</p>
         </div>
-        <div class="services_content">
+        <div class="services_content" data-aos="fade-up">
             <h2 class="services_content-title text-center"><strong class="services_content-bg">Nos solutions
                     sur-mesure</strong>
             </h2>
@@ -111,7 +113,7 @@
 </section>
 <section class="tabs">
     <div class="container">
-        <div class="tabs_header">
+        <div class="tabs_header" data-aos="fade-up">
             <h2 class="tabs_header-title">Vous êtes un(e) 👇</h2>
             <div class="tabs_header-buttons tab">
                 <button class="tabs_header-buttons--btn tablinks" onclick="openCity(event, 'Copropriété', 'CopropriétéImg')">Copropriété</button>
@@ -120,7 +122,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-right">
                 <div class="tabs_content tabcontent" id="Copropriété" style="display: block !important;">
                     <h3 class="tabs_content-title">Vidéosurveillance pour <span class="primary-color">Copropriété</span>
                     </h3>
@@ -145,7 +147,7 @@
                         une application sur votre smartphone, vous pourrez à n’importe quel moment visualiser votre
                         domicile et d’être alerté en cas d’intrusion.</p>
                     <div class="zone_content-button justify-content-start">
-                        <a href="#" class="slider_content-buttons--1 smart_content-button--btn">Prendre un RDV &nbsp;<i
+                        <a href="#devis" class="slider_content-buttons--1 smart_content-button--btn">Prendre un RDV &nbsp;<i
                                 class="fas fa-file"></i></a>
                     </div>
                 </div>
@@ -192,30 +194,30 @@
 <section class="services_cards p7">
     <div class="container">
         <div class="services_flex d-flex justify-content-between align-items-start" style="gap: 2rem;">
-            <div class="services_cards-content w-100">
-                <div class="services_cards-content--icon"><i class="fas fa-lightbulb"></i></div>
+            <div class="services_cards-content w-100" data-aos="fade-down">
+                <div class="services_cards-content--icon" data-aos="flip-left"><i class="fas fa-lightbulb"></i></div>
                 <h3 class="services_cards-content--title text-center">Intelligence artificielle</h3>
                 <p class="services_cards-content--p">Le serveur dispose d’une intelligence artificielle, facilite le
                     mode de recherche pour une installation haut de gamme</p>
             </div>
-            <div class="services_cards-content w-100">
-                <div class="services_cards-content--icon"><i class="fas fa-eye"></i></div>
+            <div class="services_cards-content w-100" data-aos="fade-down">
+                <div class="services_cards-content--icon" data-aos="flip-left"><i class="fas fa-eye"></i></div>
                 <h3 class="services_cards-content--title text-center">Mode nuit colorisé</h3>
                 <p class="services_cards-content--p">Nos systèmes vidéosurveillance permettent de voir en couleur même
                     la nuit</p>
             </div>
-            <div class="services_cards-content w-100">
-                <div class="services_cards-content--icon"><i class="fas fa-circle"></i></div>
+            <div class="services_cards-content w-100" data-aos="fade-down">
+                <div class="services_cards-content--icon" data-aos="flip-left"><i class="fas fa-circle"></i></div>
                 <h3 class="services_cards-content--title text-center">Focale optimisée</h3>
                 <p class="services_cards-content--p">Champ de vision élargi, angle de vue optimisé</p>
             </div>
-            <div class="services_cards-content w-100">
-                <div class="services_cards-content--icon"><i class="fas fa-shield-alt"></i></div>
+            <div class="services_cards-content w-100" data-aos="fade-down">
+                <div class="services_cards-content--icon" data-aos="flip-left"><i class="fas fa-shield-alt"></i></div>
                 <h3 class="services_cards-content--title text-center">Solidité</h3>
                 <p class="services_cards-content--p">Nos caméras répondent à l’indice de protection IK10</p>
             </div>
             <div class="services_cards-content w-100">
-                <div class="services_cards-content--icon"><i class="fas fa-sun"></i></div>
+                <div class="services_cards-content--icon" data-aos="flip-left"><i class="fas fa-sun"></i></div>
                 <h3 class="services_cards-content--title text-center">Indice IP67</h3>
                 <p class="services_cards-content--p">Votre appareil est totalement protégé contre les poussières et
                     contre les effets de l’immersion temporaire</p>
@@ -229,7 +231,7 @@
             <div class="menu_content">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="menu_content-items">
+                        <div class="menu_content-items" data-aos="fade-right">
                             <div class="menu_content-items--icon"><i class="fas fa-magic"></i></div>
                             <div>
                                 <h3 class="menu_content-items--title">Finitions soignées</h3>
@@ -241,7 +243,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="menu_content-items">
+                        <div class="menu_content-items" data-aos="fade-right">
                             <div class="menu_content-items--icon"><i class="fas fa-tools"></i></div>
                             <div>
                                 <h3 class="menu_content-items--title">Accompagnement sur-mesure</h3>
@@ -253,7 +255,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="menu_content-items">
+                        <div class="menu_content-items" data-aos="fade-left">
                             <div class="menu_content-items--icon"><i class="fas fa-mobile"></i></div>
                             <div>
                                 <h3 class="menu_content-items--title">Disponibilité</h3>
@@ -264,7 +266,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="menu_content-items">
+                        <div class="menu_content-items" data-aos="fade-left">
                             <div class="menu_content-items--icon"><i class="fas fa-piggy-bank"></i></div>
                             <div>
                                 <h3 class="menu_content-items--title">Tarifs adaptés</h3>
@@ -280,13 +282,13 @@
         <div class="col-lg-4 m-0 p-0">
             <div class="menu_image">
                 <div class="menu_image-bg">
-                    <a href="#" class="menu_image-bg--btn">Devis gratuit &nbsp;<i class="fas fa-calendar-alt"></i></a>
+                    <a href="#devis" class="menu_image-bg--btn">Devis gratuit &nbsp;<i class="fas fa-calendar-alt"></i></a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="services">
+<section class="services" data-aos="fade-up">
     <div class="container">
         <div class="services_content">
             <h2 class="services_content-title"><strong class="services_content-bg">Nos dernières réalisations</strong>
@@ -359,9 +361,9 @@
         </div>
     </div>
 </div>
-<section class="devis">
+<section class="devis" id="devis" data-aos="fade-down">
     <div class="container">
-        <div class="services_content devis_content">
+        <div class="services_content devis_content" data-aos="fade-down">
             <h2 class="services_content-title devis_content-title"><strong class="services_content-bg">Votre devis
                     gratuit</strong></h2>
             <hr class="devis_content-hr">
@@ -569,7 +571,7 @@
                     <h3 class="footer_content-title">À propos de Co-smart</h3>
                     <p class="footer_content-p">Nous vous proposons les dernières solutions
                         courant faible et sureté dans tous locaux.</p>
-                    <a href="" class="footer_content-link">LinkedIn</a>
+                    <a href="https://www.linkedin.com/company/co-smart/about/" target="_blank" class="footer_content-link">LinkedIn</a>
                     <a href="" class="footer_content-link">Instagram</a>
                 </div>
             </div>
@@ -618,6 +620,14 @@
     <a href="http://bhinternet.fr/" target="_blank" class="footer_content-li--link text-center text-white">BHInternet - Creation site
         internet | 2022</a>
 </div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 200,
+        duration: 700
+    });
+</script>
 
 <script src="./assets/js/index.js"></script>
 <script src="./assets/js/formSubmit.js"></script>   

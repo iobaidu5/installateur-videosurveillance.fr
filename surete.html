@@ -1,9 +1,10 @@
-<!doctype html>
+<!doctype html><!doctype html>
 <html>
   <head>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Lato:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/font/flaticon.css"/>
     <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon" />
@@ -42,6 +43,7 @@
 </head>
   <body>
     
+    
       <section class="navbar-main Navbar">
     <nav class="navbar navbar-expand-lg fixedNav">
         <div class="container-fluid">
@@ -75,10 +77,10 @@
         </div>
     </nav>
 </section>
+     
+
     
 
-
-    
 
     <div class="">
         <section class="banner-3">
@@ -88,18 +90,18 @@
             </h1>
             <p class="slider_content-p">Contrôlez, simplifiez, vivez.</p>
             <div class="slider_content-buttons">
-                <a href="#" class="slider_content-buttons--1">Devis gratuit &nbsp;<i class="fas fa-file"></i></a>
+                <a href="#devis" class="slider_content-buttons--1">Devis gratuit &nbsp;<i class="fas fa-file"></i></a>
             </div>
         </div>
     </div>
 </section>
 <section class="services">
     <div class="container">
-        <div class="services_header">
+        <div class="services_header" data-aos="fade-down">
             <div class="services_header-icon"><i class="fas fa-map"></i></div>
             <p class="services_header-p">Île-de-France | Grand-Est</p>
         </div>
-        <div class="services_content">
+        <div class="services_content" data-aos="fade-down">
             <h2 class="services_content-title text-center"><strong class="services_content-bg">Nos solutions
                     sur-mesure</strong>
             </h2>
@@ -110,7 +112,7 @@
 </section>
 <section class="tabs">
     <div class="container">
-        <div class="tabs_header">
+        <div class="tabs_header" data-aos="fade-down">
             <h2 class="tabs_header-title">Vous êtes un(e) 👇</h2>
             <div class="tabs_header-buttons tab">
                 <button class="tabs_header-buttons--btn tablinks"
@@ -123,18 +125,18 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <div class="tabs_content tabcontent" id="Copropriété" style="display: block !important;">
+                <div class="tabs_content tabcontent" data-aos="fade-right" id="Copropriété" style="display: block !important;">
                     <h3 class="tabs_content-title">Système anti-intrusion pour <span
                             class="primary-color">Copropriété</span></h3>
                     <p class="services_content-p text-left p-0">Nous vous proposons un système Vigik pour faciliter
                         l’accès aux résidents. Chaque badge est nominatif par lot assurant une meilleure gestion. Chaque
                         badge est désactivé lors d’un déménagement.</p>
                     <div class="zone_content-button justify-content-start">
-                        <a href="#" class="slider_content-buttons--1 smart_content-button--btn">Prendre un RDV &nbsp;<i
+                        <a href="#devis" class="slider_content-buttons--1 smart_content-button--btn">Prendre un RDV &nbsp;<i
                                 class="fas fa-file"></i></a>
                     </div>
                 </div>
-                <div class="tabs_content tabcontent" id="Particulier">
+                <div class="tabs_content tabcontent" data-aos="fade-right" id="Particulier">
                     <h3 class="tabs_content-title">Système anti-intrusion pour <span
                             class="primary-color">Particulier</span></h3>
                     <p class="services_content-p text-left p-0">Pour protéger votre domicile, un système performant et
@@ -145,11 +147,11 @@
 
                     </p>
                     <div class="zone_content-button justify-content-start">
-                        <a href="#" class="slider_content-buttons--1 smart_content-button--btn">Prendre un RDV &nbsp;<i
+                        <a href="#devis" class="slider_content-buttons--1 smart_content-button--btn">Prendre un RDV &nbsp;<i
                                 class="fas fa-file"></i></a>
                     </div>
                 </div>
-                <div class="tabs_content tabcontent" id="Entreprise">
+                <div class="tabs_content tabcontent" data-aos="fade-right" id="Entreprise">
                     <h3 class="tabs_content-title">Système anti-intrusion pour <span
                             class="primary-color">Entreprise</span></h3>
                     <p class="services_content-p text-left p-0">Sécuriser et contrôler l’accès de vos locaux est une
@@ -157,7 +159,7 @@
                         restreindre les accès de votre choix. Des options avancées sont également conseillées pour une
                         installation haute gamme.</p>
                     <div class="zone_content-button justify-content-start">
-                        <a href="#" class="slider_content-buttons--1 smart_content-button--btn">Prendre un RDV &nbsp;<i
+                        <a href="#devis" class="slider_content-buttons--1 smart_content-button--btn">Prendre un RDV &nbsp;<i
                                 class="fas fa-file"></i></a>
                     </div>
                 </div>
@@ -180,8 +182,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="services_cards-content">
-                    <div class="services_cards-content--icon"><i class="fas fa-bullseye"></i></div>
+                <div class="services_cards-content" data-aos="fade-down">
+                    <div class="services_cards-content--icon" data-aos="flip-left"><i class="fas fa-bullseye"></i></div>
                     <h3 class="services_cards-content--title">Contrôle d'accès</h3>
                     <p class="services_cards-content--p">L’installation d’un système de contrôle d’accès dans vos locaux
                         vous permettra de filtrer et gérer les accès en fonction de leurs autorisations, plages horaires
@@ -190,8 +192,8 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="services_cards-content">
-                    <div class="services_cards-content--icon"><i class="fas fa-tty"></i></div>
+                <div class="services_cards-content" data-aos="fade-down">
+                    <div class="services_cards-content--icon" data-aos="flip-left"><i class="fas fa-tty"></i></div>
                     <h3 class="services_cards-content--title">Interphonie</h3>
                     <p class="services_cards-content--p">L’interphone n’est plus un simple carillon. Il s’agit du
                         premier point d’accueil lors de l’arrivée sur vos locaux. Il permet une identification immédiate
@@ -209,7 +211,7 @@
             <div class="menu_content">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="menu_content-items">
+                        <div class="menu_content-items" data-aos="fade-right">
                             <div class="menu_content-items--icon"><i class="fas fa-magic"></i></div>
                             <div>
                                 <h3 class="menu_content-items--title">Finitions soignées</h3>
@@ -221,7 +223,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="menu_content-items">
+                        <div class="menu_content-items" data-aos="fade-right">
                             <div class="menu_content-items--icon"><i class="fas fa-tools"></i></div>
                             <div>
                                 <h3 class="menu_content-items--title">Accompagnement sur-mesure</h3>
@@ -233,7 +235,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="menu_content-items">
+                        <div class="menu_content-items" data-aos="fade-left">
                             <div class="menu_content-items--icon"><i class="fas fa-mobile"></i></div>
                             <div>
                                 <h3 class="menu_content-items--title">Disponibilité</h3>
@@ -244,7 +246,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="menu_content-items">
+                        <div class="menu_content-items" data-aos="fade-left">
                             <div class="menu_content-items--icon"><i class="fas fa-piggy-bank"></i></div>
                             <div>
                                 <h3 class="menu_content-items--title">Tarifs adaptés</h3>
@@ -260,13 +262,13 @@
         <div class="col-lg-4 m-0 p-0">
             <div class="menu_image3">
                 <div class="menu_image-bg">
-                    <a href="#" class="menu_image-bg--btn">Devis gratuit &nbsp;<i class="fas fa-calendar-alt"></i></a>
+                    <a href="#devis" class="menu_image-bg--btn">Devis gratuit &nbsp;<i class="fas fa-calendar-alt"></i></a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="services">
+<section class="services" data-aos="fade-up">
     <div class="container">
         <div class="services_content">
             <h2 class="services_content-title"><strong class="services_content-bg">Nos dernières réalisations</strong>
@@ -339,7 +341,7 @@
         </div>
     </div>
 </div>
-<section class="devis">
+<section class="devis" data-aos="fade-down" id="devis">
     <div class="container">
         <div class="services_content devis_content">
             <h2 class="services_content-title devis_content-title"><strong class="services_content-bg">Votre devis
@@ -442,7 +444,7 @@
         </div>
     </div>
 </section>
-<section class="faq">
+<section class="faq" data-aos="fade-up">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
@@ -541,7 +543,7 @@
                     <h3 class="footer_content-title">À propos de Co-smart</h3>
                     <p class="footer_content-p">Nous vous proposons les dernières solutions
                         courant faible et sureté dans tous locaux.</p>
-                    <a href="" class="footer_content-link">LinkedIn</a>
+                    <a href="https://www.linkedin.com/company/co-smart/about/" target="_blank" class="footer_content-link">LinkedIn</a>
                     <a href="" class="footer_content-link">Instagram</a>
                 </div>
             </div>
@@ -590,6 +592,14 @@
     <a href="http://bhinternet.fr/" target="_blank" class="footer_content-li--link text-center text-white">BHInternet - Creation site
         internet | 2022</a>
 </div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 200,
+        duration: 700
+    });
+</script>
 
 <script src="./assets/js/index.js"></script>
 <script src="./assets/js/formSubmit.js"></script>   
