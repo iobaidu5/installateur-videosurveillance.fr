@@ -6,6 +6,7 @@ $(document).ready(function () {
 });
 
 const nav = document.querySelector(".fixedNav");
+const logo = document.querySelector(".logo");
 window.addEventListener("scroll", fixNav);
 
 function fixNav() {
@@ -13,6 +14,7 @@ function fixNav() {
     nav.classList.add("navbar-active");
   } else {
     nav.classList.remove("navbar-active");
+    logo.classList.add("fadeInDown");
   }
 }
 
